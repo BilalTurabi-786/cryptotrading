@@ -30,7 +30,7 @@ export default function Navbar() {
                                         <NavLink to="/login" className="nav-link">Log In</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link bg-info py-1 px-4  " href="#" style={{ borderRadius: '5px', border: '1px solid #fff', color: '#fff !important' }}>Sign Up</a>
+                                        <a className="nav-link bg-info py-1 px-4" href="#" style={{ borderRadius: '5px', border: '1px solid #fff', color: '#fff !important' }}>Sign Up</a>
                                     </li>
                                 </ul>
                             </form>
@@ -39,7 +39,7 @@ export default function Navbar() {
                     {/* header */}
                     <div className="row header">
                         <div className="col-lg-6 col-md-6 col-sm-12 first-col">
-                            <h1 className="text-white heading">Transfrom Your Idea Into Reality With Densik</h1>
+                            <h1 className="text-white heading">Buy & Sell Crypto Fast & Easy With MTN Mobile Money</h1>
                             <p className="mt-4">The entire Densik team knows what's good with traded and you can too with one week and a good
                                 attitude.</p>
                             <div className="play-button mt-4">
@@ -47,14 +47,42 @@ export default function Navbar() {
                                 <p className="ml-3 mt-2 text-white">Watch Demo</p>
                                 <i className="fa fa-long-arrow-alt-right fa-2x ml-3 mt-2 text-white" />
                             </div>
-                            <div className="payment">
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <div style={{ display: 'flex' }}>
+                                        <div className="payment-box mr-1">
+                                            <img src="gallery/image 25.png" alt="" className="img-fluid img" />
+                                        </div>
+                                        <div className="payment-box mx-1">
+                                            <img src="gallery/Vector.png" alt="" className="img-fluid img" />
+                                        </div>
+                                        <div className="payment-box mx-1">
+                                            <img src="gallery/Rectangle 1282.png" alt="" className="img-fluid img" />
+                                        </div>
+                                        <div className="payment-box mx-1">
+                                            <img src="gallery/Vector (1).png" alt="" className="img-fluid img" />
+                                        </div>
+                                        <div className="payment-box mx-1">
+                                            <img src="gallery/image 24.png" alt="" className="img-fluid img" />
+                                        </div>
+                                        <div className="payment-box mx-1">
+                                            <img src="gallery/airtel.jpg" alt="" className="img-fluid" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <br />
+
+                            {/* <div className="payment">
                                 <img src="gallery/image 25.png" alt="" className="img-fluid" />
                                 <img src="gallery/Vector.png" alt="" className="img-fluid" />
                                 <img src="gallery/Rectangle 1282.png" alt="" className="img-fluid" />
                                 <img src="gallery/Vector (1).png" alt="" className="img-fluid" />
                                 <img src="gallery/image 24.png" alt="" className="img-fluid" />
                                 <img src="gallery/airtel.jpg" alt="" className="img-fluid" />
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="card Crypto-card">
