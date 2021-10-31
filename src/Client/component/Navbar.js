@@ -125,19 +125,29 @@ export default function Navbar() {
                                                 <div className="label">
                                                     <p>Pay</p>
                                                 </div>
-                                                <select name id className="form-control text-white">
-                                                    <option value>BUSD</option>
-                                                    <option value />
-                                                </select>
+                                                <div class="input-group mb-3">
+                                                    <div className="input-group-prepend">
+                                                        <select name id className="form-control text-white rb">
+                                                            <option value>BUSD</option>
+                                                            <option value />
+                                                        </select>
+                                                    </div>
+                                                    <input type="text" class="form-control input-style lb" placeholder="0" />
+                                                </div>
                                                 &nbsp; &nbsp; &nbsp; &nbsp;
                                                 <i className="fa fa-arrow-circle-down fa-1x text-white offset-5 mt-4" />
                                                 <div className="label">
                                                     <p>Recieve (Estimated)</p>
                                                 </div>
-                                                <select name id className="form-control text-white">
-                                                    <option value>USDC</option>
-                                                    <option value />
-                                                </select>
+                                                <div class="input-group mb-3">
+                                                    <div className="input-group-prepend">
+                                                        <select name id className="form-control text-white rb">
+                                                            <option value>USDC</option>
+                                                            <option value />
+                                                        </select>
+                                                    </div>
+                                                    <input type="text" class="form-control input-style lb" placeholder="0" />
+                                                </div>
                                                 <div className="label1 mt-4">
                                                     <p className="offset-4">1 BUSD = 1.000USDC</p>
                                                     <i className="fas fa-undo ml-3 mt-1 text-white" />
