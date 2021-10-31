@@ -318,16 +318,16 @@ export default function Index() {
                                     <div className="label">
                                       <input type="text" className="form-control" />&nbsp;&nbsp;&nbsp;
                                       <select name id className="form-control text-white">
-                                        <option value>USD</option>
-                                        <option value />
+                                        <option className="obg" value>USD</option>
+                                        <option className="obg" value >BTS</option>
                                       </select>
                                     </div>
                                     <label htmlFor className="text-white mt-4">Recieve (Estimated)</label>
                                     <div className="label">
                                       <input type="text" className="form-control" />&nbsp;&nbsp;&nbsp;
                                       <select name id className="form-control text-white">
-                                        <option value>ETH</option>
-                                        <option value />
+                                        <option className="obg" value>ETH</option>
+                                        <option className="obg" value>BNB</option>
                                       </select>
                                     </div>
                                     <button className="btn btn-block btn-info py-3 mt-5">Buy Crypto</button>
@@ -337,16 +337,16 @@ export default function Index() {
                                     <div className="label">
                                       <input type="text" className="form-control" />&nbsp;&nbsp;&nbsp;
                                       <select name id className="form-control text-white">
-                                        <option value>USD</option>
-                                        <option value />
+                                        <option className="obg" value>USD</option>
+                                        <option className="obg" value>BTC</option>
                                       </select>
                                     </div>
                                     <label htmlFor className="text-white mt-4">Recieve (Estimated)</label>
                                     <div className="label">
                                       <input type="text" className="form-control" />&nbsp;&nbsp;&nbsp;
                                       <select name id className="form-control text-white">
-                                        <option value>ETH</option>
-                                        <option value />
+                                        <option className="obg" value>ETH</option>
+                                        <option className="obg" value>BNB</option>
                                       </select>
                                     </div>
                                     <button className="btn btn-block btn-danger py-3 mt-5">Sell Crypto</button>
@@ -358,16 +358,16 @@ export default function Index() {
                                 <div className="label">
                                   <input type="text" className="form-control" />&nbsp;&nbsp;&nbsp;
                                   <select name id className="form-control text-white">
-                                    <option value>USD</option>
-                                    <option value />
+                                    <option className="obg" value>USD</option>
+                                    <option className="obg" value>BTC</option>
                                   </select>
                                 </div>
                                 <label htmlFor className="text-white mt-4">Recieve (Estimated)</label>
                                 <div className="label">
                                   <input type="text" className="form-control" />&nbsp;&nbsp;&nbsp;
                                   <select name id className="form-control text-white">
-                                    <option value>ETH</option>
-                                    <option value />
+                                      <option className="obg" value>ETH</option>
+                                      <option className="obg" value>BNB</option>
                                   </select>
                                 </div>
                                 <button className="btn btn-block btn-info py-3 mt-5">Exchange Crypto</button>
