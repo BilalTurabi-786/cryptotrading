@@ -70,21 +70,21 @@ export default function Index() {
             <div className="row text-center text-white">
               <div className="col-lg-4 col-md-4 col-sm-12 mt-5">
                 <div className="icon-bg">
-                  <img src="gallery/cyrrency.png" alt="" className="img-fluid" />
+                  <img src="gallery/Group 30858.png" alt="" className="img-fluid" />
                 </div>
-                <h2>Available Cuurency</h2>
+                <h5 className="mt-2">Available Currency</h5>
                 <h1>56K</h1>
                 <br /><br />
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12 mt-5">
-                <img src="gallery/users.png" alt="" className="img-fluid" />
-                <h2>Active Users</h2>
+                <img src="gallery/Group 30859.png" alt="" className="img-fluid" />
+                <h5 className="mt-2">Active Users</h5>
                 <h1>879K</h1>
                 <br /><br />
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12 mt-5">
-                <img src="gallery/trading.png" alt="" className="img-fluid" />
-                <h2>Trading Volume</h2>
+                <img src="gallery/Group 30860.png" alt="" className="img-fluid" />
+                <h5 className="mt-2">Trading Volume</h5>
                 <h1>$742,311</h1>
                 <br /><br />
               </div>
@@ -167,9 +167,9 @@ export default function Index() {
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti nulla, praesentium deleniti debitis libero
                 impedit!</p>
               <div className="images">
-                <img src="gallery/p1.png" alt="" className="img-fluid rounded-circle" />
-                <img src="gallery/p1.png" alt="" className="img-fluid rounded-circle" />
-                <img src="gallery/p1.png" alt="" className="img-fluid rounded-circle" />
+                <img src="gallery/Image1.png" alt="" className="img-fluid rounded-circle mr-2" />
+                <img src="gallery/Image2.png" alt="" className="img-fluid rounded-circle mx-2" />
+                <img src="gallery/Image3.png" alt="" className="img-fluid rounded-circle mx-2" />
               </div>
               <p className="text-dark">30+ Customer Reviews</p>
             </div>
@@ -285,7 +285,7 @@ export default function Index() {
           <div className="jumbotron-fluid container1">
             <div className="container">
               <div className="row">
-                <div className="col-lg-6 col-md-6 col-sm-12 py-5">
+                <div style={{marginTop:"10%"}} className="col-lg-6 col-md-6 col-sm-12 py-5">
                   <h1 className="text-info">Calculate Your Crypto And Payment</h1>
                   <p className="text-white mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, molestias! Quis
                     explicabo, nostrum beatae optio atque laborum vero dolor voluptatem.</p>
@@ -385,7 +385,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-              <hr className="hr-style"/>
+              <hr className="hr-style" />
               <div className="row mt-5">
                 <div className="col-lg-4 col-md-4 col-sm-12">
                   <img src="gallery/image 17.png" alt="" className="img-fluid" />
@@ -412,8 +412,8 @@ export default function Index() {
                   </ul>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-12">
-                  <h2 className="text-white">We Accept Following Payment Systems</h2>
-                  <div style={{ display: 'flex' }}>
+                  <h4 className="text-white">We Accept Following Payment Systems</h4>
+                  <div style={{ display: 'flex' }} className="mt-3">
 
                     <div className="payment-box-footer mx-1">
                       <img src="gallery/image 25.png" alt="" className="img-fluid" />
