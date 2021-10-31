@@ -30,16 +30,17 @@ export default function Navbar() {
                                         <NavLink to="/login" className="nav-link">Log In</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link bg-info py-1 px-4" href="#" style={{ borderRadius: '5px', border: '1px solid #fff', color: '#fff !important' }}>Sign Up</a>
+                                        <a className="nav-link py-1 px-4 signup-style " href="#"><span style={{color:"#fff"}}>Sign Up</span> <i class="fa fa-long-arrow-alt-right ml-1 mt-2 text-white"></i></a>
                                     </li>
                                 </ul>
                             </form>
                         </div>
                     </nav>
+                    <hr className="hr-style" />
                     {/* header */}
                     <div className="row header">
                         <div className="col-lg-6 col-md-6 col-sm-12 first-col">
-                            <h1 className="text-white heading">Buy & Sell Crypto Fast & Easy With MTN Mobile Money</h1>
+                            <h1 className="text-white heading">Buy & Sell Crypto Fast <br />& Easy With MTN <br /> Mobile Money</h1>
                             <p className="mt-4">The entire Densik team knows what's good with traded and you can too with one week and a good
                                 attitude.</p>
                             <div className="play-button mt-4">
@@ -47,42 +48,14 @@ export default function Navbar() {
                                 <p className="ml-3 mt-2 text-white">Watch Demo</p>
                                 <i className="fa fa-long-arrow-alt-right fa-2x ml-3 mt-2 text-white" />
                             </div>
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <div style={{ display: 'flex' }}>
-                                        <div className="payment-box mr-1">
-                                            <img src="gallery/image 25.png" alt="" className="img-fluid img" />
-                                        </div>
-                                        <div className="payment-box mx-1">
-                                            <img src="gallery/Vector.png" alt="" className="img-fluid img" />
-                                        </div>
-                                        <div className="payment-box mx-1">
-                                            <img src="gallery/Rectangle 1282.png" alt="" className="img-fluid img" />
-                                        </div>
-                                        <div className="payment-box mx-1">
-                                            <img src="gallery/Vector (1).png" alt="" className="img-fluid img" />
-                                        </div>
-                                        <div className="payment-box mx-1">
-                                            <img src="gallery/image 24.png" alt="" className="img-fluid img" />
-                                        </div>
-                                        <div className="payment-box mx-1">
-                                            <img src="gallery/airtel.jpg" alt="" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="payment">
+                                <img src="gallery/image 25.png" alt="" className="img-fluid payment-style" />
+                                <img src="gallery/Vector.png" alt="" className="img-fluid payment-style" />
+                                <img src="gallery/Rectangle 1282.png" alt="" className="img-fluid payment-style" />
+                                <img src="gallery/Vector (1).png" alt="" className="img-fluid payment-style" />
+                                <img src="gallery/image 24.png" alt="" className="img-fluid payment-style" />
+                                <img src="gallery/airtel.jpg" alt="" className="img-fluid payment-style" />
                             </div>
-
-
-                            <br />
-
-                            {/* <div className="payment">
-                                <img src="gallery/image 25.png" alt="" className="img-fluid" />
-                                <img src="gallery/Vector.png" alt="" className="img-fluid" />
-                                <img src="gallery/Rectangle 1282.png" alt="" className="img-fluid" />
-                                <img src="gallery/Vector (1).png" alt="" className="img-fluid" />
-                                <img src="gallery/image 24.png" alt="" className="img-fluid" />
-                                <img src="gallery/airtel.jpg" alt="" className="img-fluid" />
-                            </div> */}
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="card Crypto-card">
@@ -90,8 +63,8 @@ export default function Navbar() {
                                     <div className="card-title">
                                         <nav>
                                             <div className="nav nav-tabs label" id="nav-tab" role="tablist">
-                                                <a className="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Exchange Crypto</a>
-                                                <a className="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Buy/Sell Crypto</a>
+                                                <a className="nav-item nav-link left-side" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Exchange Crypto</a>
+                                                <a className="nav-item nav-link right-side active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Buy/Sell Crypto</a>
                                             </div>
                                         </nav>
                                     </div>
@@ -107,8 +80,8 @@ export default function Navbar() {
                                                 </select>
                                                 <nav className="mt-5">
                                                     <div className="nav nav-tabs1 ml-lg-auto" id="nav-tab" role="tablist">
-                                                        <a className="nav-item nav-link1" id="sell" data-toggle="tab" href="#sell1" role="tab" aria-controls="nav-home" aria-selected="true">Sell<i className="fas fa-arrow-circle-up" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <a className="nav-item nav-link1 active " id="buy" data-toggle="tab" href="#buy1" role="tab" aria-controls="nav-profile" aria-selected="false">Buy<i className="fas fa-arrow-circle-down" /></a>
+                                                        <a className="nav-item nav-link1 sell" id="sell" data-toggle="tab" href="#sell1" role="tab" aria-controls="nav-home" aria-selected="true">Sell <i className="fas fa-arrow-circle-up" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a className="nav-item nav-link1 active " id="buy" data-toggle="tab" href="#buy1" role="tab" aria-controls="nav-profile" aria-selected="false">Buy <i className="fas fa-arrow-circle-down" /></a>
                                                     </div>
                                                 </nav>
                                                 <div className="tab-content" id="nav-tabContent">

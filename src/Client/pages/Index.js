@@ -69,7 +69,9 @@ export default function Index() {
           <div className="container">
             <div className="row text-center text-white">
               <div className="col-lg-4 col-md-4 col-sm-12 mt-5">
-                <img src="gallery/cyrrency.png" alt="" className="img-fluid" />
+                <div className="icon-bg">
+                  <img src="gallery/cyrrency.png" alt="" className="img-fluid" />
+                </div>
                 <h2>Available Cuurency</h2>
                 <h1>56K</h1>
                 <br /><br />

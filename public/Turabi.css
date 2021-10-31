@@ -37,7 +37,7 @@ hr{
      border-bottom: 2px solid rgb(5, 215, 243);
  }
  .container .play-button{
-   color: rgb(5, 215, 243);
+   color: rgb(13 144 190);
    display: flex;
    margin: 10px 0px;
  
@@ -61,8 +61,8 @@ hr{
      box-sizing: border-box;
      display: flex;
      width: 15%;
-     height: 11%;
-     margin: 15px 20px;
+     height: 8%;
+     margin: 15px 0px;
  }
  .nav-tabs .nav-link.active{
      background-color: rgba(5, 215, 243, 0.479) !important;
@@ -96,7 +96,7 @@ hr{
     padding: 5px;
     border-radius: 5px;
     justify-content: right;
-    width: 25%;
+    width: 28%;
 }
 footer .nav-tabs1 .nav-link1,
 .nav-tabs1 .nav-link1{
@@ -345,3 +345,49 @@ footer .upload .fas{
     height: 40px;
 } */
 /* jawad */
+
+/* subhan */
+
+.hr-style {
+    margin-top: -0.7rem !important;
+    width: 75rem;
+    margin-left: -25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+.container .navbar-light .navbar-nav .nav-link{
+    padding-bottom: 37px;
+}
+.container .navbar-light .navbar-nav .nav-link:hover{
+    padding-bottom: 35px;
+}
+li.nav-item {
+    padding: 0px 15px;
+    padding-top: 20px;
+}
+.signup-style{
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff; 
+    background-color: #0D90BE !important;
+}
+.left-side{
+    border-top-left-radius: 12px !important;
+    width: 50%;
+    text-align: center;
+    margin: -20px 0px 0px -20px;
+    padding-top: 20px !important;
+}
+.right-side{
+    border-top-right-radius: 12px !important;
+    width: 50%;
+    text-align: center;
+    margin: -20px -20px 0px 0px;
+    padding-top: 20px !important;
+}
+.payment-style{
+    margin: 0px 5px;
+    width: 102px;
+}
+.nav-tabs1 .nav-link1.sell.active{
+    background-color: rgb(255 0 0) !important;
+}
