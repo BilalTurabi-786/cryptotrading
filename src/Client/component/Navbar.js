@@ -74,10 +74,15 @@ export default function Navbar() {
                                                 <div className="label">
                                                     <p>Pay</p>
                                                 </div>
-                                                <select name id className="form-control text-white">
-                                                    <option value>BUSD</option>
-                                                    <option value />
-                                                </select>
+                                                <div class="input-group mb-3">
+                                                    <div className="input-group-prepend">
+                                                        <select name id className="form-control text-white rb">
+                                                            <option className="obg" value>USDT</option>
+                                                            <option className="obg" value>BUSD</option>
+                                                        </select>
+                                                    </div>
+                                                    <input type="text" class="form-control input-style lb" placeholder="0" />
+                                                </div>
                                                 <nav className="mt-5">
                                                     <div className="nav nav-tabs1 ml-lg-auto" id="nav-tab" role="tablist">
                                                         <a className="nav-item nav-link1 sell" id="sell" data-toggle="tab" href="#sell1" role="tab" aria-controls="nav-home" aria-selected="true">Sell <i className="fas fa-arrow-circle-up" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -89,10 +94,15 @@ export default function Navbar() {
                                                         <div className="label">
                                                             <p>Recieve (Estimated)</p>
                                                         </div>
-                                                        <select name id className="form-control text-white">
-                                                            <option value>USDC</option>
-                                                            <option value />
-                                                        </select>
+                                                        <div class="input-group mb-3">
+                                                            <div className="input-group-prepend">
+                                                                <select name id className="form-control text-white rb">
+                                                                    <option className="obg" value>BUSD</option>
+                                                                    <option className="obg" value>USDT</option>
+                                                                </select>
+                                                            </div>
+                                                            <input type="text" class="form-control input-style lb" placeholder="0" />
+                                                        </div>
                                                         <div className="label1 mt-4">
                                                             <p className="offset-4">1 BUSD = 1.000USDC</p>
                                                             <i className="fas fa-undo ml-3 mt-1 text-white" />
@@ -106,10 +116,15 @@ export default function Navbar() {
                                                         <div className="label">
                                                             <p>Recieve (Estimated)</p>
                                                         </div>
-                                                        <select name id className="form-control text-white">
-                                                            <option value>USDC</option>
-                                                            <option value />
-                                                        </select>
+                                                        <div class="input-group mb-3">
+                                                            <div className="input-group-prepend">
+                                                                <select name id className="form-control text-white rb">
+                                                                    <option className="obg" value>USDC</option>
+                                                                    <option className="obg" value>BTC </option>
+                                                                </select>
+                                                            </div>
+                                                            <input type="text" class="form-control input-style lb" placeholder="0" />
+                                                        </div>
                                                         <div className="label1 mt-4">
                                                             <p className="offset-4">1 BUSD = 1.000USDC</p>
                                                             <i className="fas fa-undo ml-3 mt-1 text-white" />
@@ -128,8 +143,8 @@ export default function Navbar() {
                                                 <div class="input-group mb-3">
                                                     <div className="input-group-prepend">
                                                         <select name id className="form-control text-white rb">
-                                                            <option value>BUSD</option>
-                                                            <option value />
+                                                            <option className="obg" value>BUSD</option>
+                                                            <option className="obg" value>USDT</option>
                                                         </select>
                                                     </div>
                                                     <input type="text" class="form-control input-style lb" placeholder="0" />
@@ -142,8 +157,8 @@ export default function Navbar() {
                                                 <div class="input-group mb-3">
                                                     <div className="input-group-prepend">
                                                         <select name id className="form-control text-white rb">
-                                                            <option value>USDC</option>
-                                                            <option value />
+                                                            <option className="obg" value>USDC</option>
+                                                            <option className="obg" value>BTC </option>
                                                         </select>
                                                     </div>
                                                     <input type="text" class="form-control input-style lb" placeholder="0" />
