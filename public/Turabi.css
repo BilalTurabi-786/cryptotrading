@@ -394,3 +394,17 @@ li.nav-item {
 .map .payment img{
     margin: 0px 20px;
 }
+.input-style{
+    border-radius: 10px !important;
+    background-color: transparent !important;
+}
+.rb{
+    border-right:1px solid transparent !important;
+    border-radius: 10px 0px 0px 10px !important;
+}
+.lb{
+    border-left: 1px solid transparent !important;
+    margin-left: -12px;
+    border-radius: 0px 10px 10px 0px !important;
+    text-align: right;
+}
