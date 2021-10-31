@@ -65,7 +65,7 @@ export default function Index() {
           </div>
         </div>
         <br /><br /> <br /><br />
-        <div className="jumbotron-fluid main-content2 container1 mt-5 ">
+        <div className="main-content2 container1 mt-5 ">
           <div className="container">
             <div className="row text-center text-white">
               <div className="col-lg-4 col-md-4 col-sm-12 mt-5">
@@ -296,8 +296,8 @@ export default function Index() {
                       <div className="card-title">
                         <nav>
                           <div className="nav nav-tabs label" id="nav-tab" role="tablist">
-                            <a className="nav-item nav-link" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true">Exchange Crypto</a>
-                            <a className="nav-item nav-link active" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false">Buy/Sell Crypto</a>
+                            <a className="nav-item nav-link left-side" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true">Exchange Crypto</a>
+                            <a className="nav-item nav-link right-side active" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false">Buy/Sell Crypto</a>
                           </div>
                         </nav>
                       </div>
@@ -308,8 +308,8 @@ export default function Index() {
                               <div className="tab-pane fade" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab1">
                                 <nav className="mt-5">
                                   <div className="nav nav-tabs1 ml-lg-auto" id="nav-tab" role="tablist">
-                                    <a className="nav-item nav-link1" id="sell1" data-toggle="tab" href="#sell11" role="tab" aria-controls="nav-home" aria-selected="true">Sell<i className="fas fa-arrow-circle-up" /></a>&nbsp;&nbsp;
-                                    <a className="nav-item nav-link1 active " id="buy1" data-toggle="tab" href="#buy11" role="tab" aria-controls="nav-profile" aria-selected="false">Buy<i className="fas fa-arrow-circle-down" /></a>
+                                    <a className="nav-item nav-link1 sell" id="sell1" data-toggle="tab" href="#sell11" role="tab" aria-controls="nav-home" aria-selected="true">Sell <i className="fas fa-arrow-circle-up" /></a>&nbsp;&nbsp;
+                                    <a className="nav-item nav-link1 active " id="buy1" data-toggle="tab" href="#buy11" role="tab" aria-controls="nav-profile" aria-selected="false">Buy <i className="fas fa-arrow-circle-down" /></a>
                                   </div>
                                 </nav>
                                 <div className="tab-content" id="nav-tabContent">
@@ -385,6 +385,7 @@ export default function Index() {
                   </div>
                 </div>
               </div>
+              <hr className="hr-style"/>
               <div className="row mt-5">
                 <div className="col-lg-4 col-md-4 col-sm-12">
                   <img src="gallery/image 17.png" alt="" className="img-fluid" />
